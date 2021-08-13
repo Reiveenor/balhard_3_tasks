@@ -22,8 +22,9 @@ def generate_fio(surname: str, name: str, patronymic: str) -> str:
 
     :return: Фамилия И.О.
     """
-    result = None
-    return result
+
+    fio = surname.title() + " " + name.title()[0] + "." + patronymic.title()[0] + "."
+    return fio
 
 
 if __name__ == '__main__':

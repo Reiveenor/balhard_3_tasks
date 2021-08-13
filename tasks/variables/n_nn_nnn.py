@@ -19,8 +19,9 @@ def n_sum(n: int) -> int:
 
     :return: результат выполнения
     """
-    result = None
-    return result
+    a = n * n
+    b = a * n
+    return n + a + b
 
 
 if __name__ == '__main__':
